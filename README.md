@@ -35,3 +35,28 @@ Trang quản lý giúp người chủ quản có thể dễ dàng quản lý doa
 | Quản lý nhân viên | Quản lý sản phẩm | Trang đăng nhập  |
 | --- | --- | ---  |
 | ![Staff page](https://i.imgur.com/hwbxCCH.png) | ![Product page](https://i.imgur.com/PTzvlea.png)  | ![Login page](https://i.imgur.com/wDrUicZ.jpg)
+
+## Cấu trúc thư mục
+
+```
+QLCK_CK
+  ├── assets
+  │   ├── css
+  │   ├── fonts
+  │   ├── img
+  │   ├── js
+  │   │   ├── core
+  │   │   ├── plugins
+  │   │   └── argon-dashboard.js
+  │   │   └── argon-dashboard.js.map
+  │   │   └── argon-dashboard.min.js
+  │   └── scss
+  │       ├── argon-dashboard
+  │       └── argon-dashboard.scss
+  ├── docs
+  │   ├── documentation.html
+  ├── pages
+  ├── CHANGELOG.md
+  ├── gulpfile.js
+  ├── package.json
+```
